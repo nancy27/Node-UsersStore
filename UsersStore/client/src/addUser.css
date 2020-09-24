@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+h1{
+    
+}
+form {
+    background-color: lightgray;
+    border-radius: 4%;
+    width: 70%;
+    padding:10px;
+    margin:50px auto;
+    box-shadow: 5px 10px 8px 8px #888888;
+
+}
+.wrapper{
+    margin-left: 10px;
+    width:60%;
+    margin:0 auto;
+    align-content: center;
+    position: relative;
+}
+
+label{
+   
+    padding: 5px;
+    margin:5px;
+    text-align: left;
+    font-size: 1rem;
+    text-decoration: black;
+}
+input{
+    margin :5px 10px;
+    padding:10px;
+    width:100%;
+    border-radius: 0px solid lightgrey;
+    border-width: 0px;
+    border-radius: 2px;
+  box-sizing: border-box;
+  outline-style:none;
+  outline-width: 1px;
+
+   
+}
+
+input:focus{
+    outline-width: 1rem;
+    outline-color: orange;
+    border:1px solid grey;
+    background-color:lightgoldenrodyellow;
+}
+button{
+    width:300px;
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    background-color:grey;
+    margin:10% 30%;
+
+}
+
